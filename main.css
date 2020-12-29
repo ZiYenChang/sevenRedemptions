@@ -1,0 +1,106 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 0;
+    overflow: hidden;
+    display: block;
+}
+
+div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+} 
+
+#game {
+    display: none;
+}
+
+#menu-parent {
+    width: 100%;
+    height: 100%
+}
+
+#one {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: block;
+    border: 0;
+}
+
+#btn1{
+    background-color:#ffa500;
+    position:fixed;
+    left: 64%;
+    top: 75%;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+}
+#output{
+  background-color: #ffa500 ;
+  border-radius: 5px;
+  border: 2px solid #000000;
+  padding: 5px;
+  text-align: center;
+  width:30%;
+  height:10%;
+  position:fixed;
+  top:60%;
+  left:42%;
+  font-size:18px;
+}
+#old_man{
+  position:fixed;
+  top:55%;
+  right:60%;
+  height:30%;
+  width:auto;
+}
+#redbg, #hell{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+#btnImg{
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+
+#volbtn img{
+    width: 40px;
+    height: 30px;
+    position: relative;
+    top: 5px;
+}
+
+#btn{
+    cursor: pointer;
+    width: 45px;
+    height: 40px;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    display: none;
+}
+#volbtn {
+    cursor: pointer;
+    width: 45px;
+    height: 40px;
+    position: absolute;
+    right: 70px;
+    top: 15px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    display: none;
+}

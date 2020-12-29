@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Seven Redemptions</title>
+        <link rel = "stylesheet" type = "text/css" href = "main.css" />
+        <script src="https://unpkg.com/konva@4.0.16/konva.min.js"></script> <!-- konva js -->
+    </head>
+    <body>
+        <!-- all audio used in the game -->
+        <audio id="music">
+            <source src="music/intro_screen.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="over">
+          <source src="music/game_over.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="collect">
+          <source src="music/collect_item.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="collect1">
+          <source src="music/collect_item1.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="end">
+          <source src="music/level_complete.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="explain">
+          <source src="music/dialog.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="theGame">
+          <source src="music/theGame.mp3" type="audio/mpeg">
+        </audio>
+
+        <!-- main menu -->
+        <div id = "menu-parent">
+            <div id="menu"></div>
+        </div>
+        <script src="menuScript.js"></script>
+
+        <!-- game and dialogue -->
+        <div id = "game">
+            <canvas id="one" width="1000" height="600"></canvas>
+            <img id="redbg" src="images/redbg.png"></img>
+            <img id="hell" src="images/hell.png"></img>
+            <img id="old_man" src="images/old_man.png"></img>
+            <p id="output">Welcome… You have been teleported to atone for your sins.</p>
+            <button id= "btn1" type="button" >Click for next</button> 
+      
+            <p id="text"></p>
+            <button id="btn">
+                <img id ="btnImg" src="images/pause.png">
+            </button>
+            <button id="volbtn">
+              <img id ="volbtnImg" src="images/soundon.png">
+            </button>
+            <button id="back">
+                <img id ="backImg" src="images/soundon.png">
+              </button>
+              <button id="retry">
+                <img id ="retryImg" src="images/soundon.png">
+              </button>
+        </div>
+        <script src="gameScript.js"></script>
+    </body>
+</html>
